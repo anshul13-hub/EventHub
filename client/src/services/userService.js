@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/api/users";
+const API_URL = "https://eventhub-backend-0o7f.onrender.com/api/users";
 
 export const getProfile = async () => {
   const token = localStorage.getItem("token");

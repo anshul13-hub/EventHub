@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/api/registrations";
+const API_URL = "https://eventhub-backend-0o7f.onrender.com/api/registrations";
 
 // Get all students registered for an event
 export const getEventRegistrations = async (eventId) => {
