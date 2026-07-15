@@ -1,48 +1,20 @@
-<div align="center">
+# 🎉 EventHub – Campus Event Management Platform
 
-# 🎉 EventHub
-
-### A Modern Full-Stack Campus Event Management Platform
-
-Secure Authentication • Event Registration • QR Tickets • Organizer Dashboard • Student Dashboard
-
-<p>
-
-![React](https://img.shields.io/badge/React-19-61DAFB?logo=react)
-
-![NodeJS](https://img.shields.io/badge/Node.js-339933?logo=node.js)
-
-![Express](https://img.shields.io/badge/Express.js-000000?logo=express)
-
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?logo=mongodb)
-
-![JWT](https://img.shields.io/badge/JWT-Authentication-orange)
-
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38BDF8?logo=tailwind-css)
-
-</p>
-
-</div>
+> A modern full-stack web application that simplifies campus event management with secure authentication, online event registration, QR-based tickets, and organizer dashboards.
 
 ---
 
-# 🚀 Live Demo
+## 🚀 Live Demo
 
-### 🌐 Live Website
-
-> https://your-live-link.vercel.app
+🔗 Live Website: *(Add after deployment)*
 
 ---
 
-# 📌 About EventHub
+# 📌 Project Overview
 
-EventHub is a modern full-stack Campus Event Management Platform built using the MERN Stack.
+EventHub is a campus event management platform where students can discover events, register online, receive QR-based digital tickets, and manage their registrations.
 
-The platform enables students to discover upcoming campus events, register online, receive QR-based digital tickets, and manage their registrations.
-
-Organizers can create, edit, delete, and manage events while monitoring participant registrations through a dedicated dashboard.
-
-The project focuses on providing a clean UI, secure authentication, and a smooth event registration experience.
+Organizers can create events, edit/delete them, monitor registrations, and manage participants through a dedicated dashboard.
 
 ---
 
@@ -50,198 +22,195 @@ The project focuses on providing a clean UI, secure authentication, and a smooth
 
 ## 👨‍🎓 Student
 
-- User Registration
-- Secure Login
-- JWT Authentication
-- Browse Events
-- Search Events
-- Filter Events
+- User Registration & Login
+- Browse Upcoming Events
+- Search & Filter Events
 - Register for Events
-- QR Ticket Generation
-- Download Ticket
+- QR Code Ticket Generation
+- View / Print Digital Ticket
 - Cancel Registration
 - Student Dashboard
 - My Tickets
-- Profile Management
 
 ---
 
 ## 👨‍💼 Organizer
 
 - Organizer Login
-- Create Events
-- Update Events
-- Delete Events
+- Create Event
+- Edit Event
+- Delete Event
 - Organizer Dashboard
-- Manage Events
-- Registered Students List
-- Capacity Tracking
+- View Registered Students
 - Event Statistics
+- Seat Management
 
 ---
 
-## 🌍 Public Pages
+## 🌐 Public
 
 - Home
 - Events
 - Gallery
 - About
 - Contact
-- Login
-- Signup
+- Responsive UI
 
 ---
 
 # 🛠 Tech Stack
 
-| Technology | Usage |
-|------------|-------|
-| React.js | Frontend |
-| Tailwind CSS | Styling |
-| React Router | Routing |
-| Axios | API Requests |
-| Node.js | Backend |
-| Express.js | REST APIs |
-| MongoDB | Database |
-| Mongoose | ODM |
-| JWT | Authentication |
-| bcrypt | Password Encryption |
-| QRCode | Ticket Generation |
+## Frontend
+
+- React.js
+- Tailwind CSS
+- React Router DOM
+- Axios
+
+## Backend
+
+- Node.js
+- Express.js
+- JWT Authentication
+- bcryptjs
+
+## Database
+
+- MongoDB
+- Mongoose
+
+## Others
+
+- QR Code Generator
+- Git & GitHub
 
 ---
 
 # 📸 Screenshots
 
-## 🏠 Home Page
+## 🏠 Home
 
-![Home](image.png)
+![Home](screenshots/image.png)
 
 ---
 
-## 🎉 Events Page
+## 🎉 Events
 
-![Events](image-1.png)
+![Events](screenshots/image-1.png)
+
+![Events](screenshots/image-2.png)
 
 ---
 
 ## 🖼 Gallery
 
-![Gallery](image-3.png)
+![Gallery](screenshots/image-3.png)
 
----
+![Gallery](screenshots/image-4.png)
 
-## 👨‍🎓 Student Dashboard
-
-![Student Dashboard](image-13.png)
-
----
-
-## 👨‍💼 Organizer Dashboard
-
-![Organizer Dashboard](image-11.png)
-
----
-
-## 🎫 My Tickets
-
-![My Tickets](image-10.png)
-
----
-
-## 🎟 QR Ticket
-
-![Ticket](image-9.png)
-
----
-
-## 📋 Registered Students
-
-![Registered Students](image-8.png)
+![Gallery](screenshots/image-5.png)
 
 ---
 
 ## 🔐 Login
 
-![Login](image-6.png)
+![Login](screenshots/image-6.png)
 
 ---
 
 ## 📝 Signup
 
-![Signup](image-7.png)
+![Signup](screenshots/image-7.png)
+
+---
+
+## 📋 Registered Students
+
+![Registered Students](screenshots/image-8.png)
+
+---
+
+## 🎟 QR Ticket
+
+![QR Ticket](screenshots/image-9.png)
+
+---
+
+## 🎫 My Tickets
+
+![My Tickets](screenshots/image-10.png)
+
+---
+
+## 👨‍💼 Organizer Dashboard
+
+![Organizer Dashboard](screenshots/image-11.png)
+
+![Organizer Dashboard](screenshots/image-12.png)
+
+---
+
+## 👨‍🎓 Student Dashboard
+
+![Student Dashboard](screenshots/image-13.png)
 
 ---
 
 # ⚙ Installation
 
-Clone Repository
+Clone the repository
 
 ```bash
 git clone https://github.com/anshul13-hub/EventHub.git
 ```
 
-Go into project
+Move inside project
 
 ```bash
 cd EventHub
 ```
 
----
-
-## Backend
-
-```bash
-cd server
-
-npm install
-
-npm run dev
-```
-
----
-
-## Frontend
+Install Frontend
 
 ```bash
 cd client
-
 npm install
+```
 
+Install Backend
+
+```bash
+cd ../server
+npm install
+```
+
+Run Backend
+
+```bash
 npm run dev
 ```
 
----
+Run Frontend
 
-# 🔑 Environment Variables
-
-Create a **.env** file inside the server folder.
-
-```env
-PORT=5000
-
-MONGO_URI=your_mongodb_connection_string
-
-JWT_SECRET=your_secret_key
+```bash
+cd ../client
+npm run dev
 ```
 
 ---
 
 # 📂 Folder Structure
 
-```
+```text
 EventHub
 │
 ├── client
-│   ├── public
 │   ├── src
-│   │
+│   ├── public
 │   ├── assets
 │   ├── components
 │   ├── pages
-│   ├── routes
-│   ├── services
-│   ├── context
-│   └── App.jsx
+│   └── services
 │
 ├── server
 │   ├── config
@@ -253,128 +222,64 @@ EventHub
 │   └── server.js
 │
 ├── screenshots
+│   ├── image.png
+│   ├── image-1.png
+│   ├── image-2.png
+│   └── ...
 │
-├── README.md
-│
-└── package.json
+└── README.md
 ```
 
 ---
 
 # 🔐 Authentication
 
-✔ JWT Authentication
-
-✔ Password Hashing using bcrypt
-
-✔ Protected Routes
-
-✔ Role Based Access Control
-
----
-
-# 📡 REST API Endpoints
-
-## Authentication
-
-| Method | Endpoint |
-|---------|----------|
-| POST | /api/auth/register |
-| POST | /api/auth/login |
-
----
-
-## Events
-
-| Method | Endpoint |
-|---------|----------|
-| GET | /api/events |
-| GET | /api/events/:id |
-| POST | /api/events |
-| PUT | /api/events/:id |
-| DELETE | /api/events/:id |
-
----
-
-## Registration
-
-| Method | Endpoint |
-|---------|----------|
-| POST | /api/register/:eventId |
-| DELETE | /api/register/:eventId |
-| GET | /api/register/my-events |
-
----
-
-# 🎯 Key Functionalities
-
-✅ Secure Authentication
-
-✅ Event CRUD
-
-✅ Organizer Dashboard
-
-✅ Student Dashboard
-
-✅ QR Ticket Generation
-
-✅ Event Registration
-
-✅ Protected Routes
-
-✅ Responsive UI
-
-✅ MongoDB Integration
+- JWT Authentication
+- Password Hashing using bcryptjs
+- Protected Routes
+- Role-Based Access Control
 
 ---
 
 # 📈 Future Improvements
 
-- Admin Dashboard
-- Email Verification
-- Forgot Password
+- Email Notifications
+- Attendance Scanner
+- Certificate Generation
+- Google Login
 - Payment Gateway
-- Event Certificates
-- Attendance QR Scanner
+- Admin Dashboard
 - Event Analytics
-- Google OAuth
-- Push Notifications
 - Calendar Integration
 
 ---
 
 # 💡 Learning Outcomes
 
-During the development of this project, I gained practical experience in:
+During this project I learned:
 
-- MERN Stack Development
-- REST API Design
-- MongoDB Database Design
+- Full Stack Development
+- REST API Development
 - JWT Authentication
-- Password Encryption
-- React Routing
-- CRUD Operations
+- MongoDB CRUD Operations
+- React State Management
 - Protected Routes
+- Responsive UI
 - QR Code Integration
-- Responsive UI Design
 - Git & GitHub Workflow
 
 ---
 
 # 👨‍💻 Author
 
-## Anshul Lal
+**Anshul Lal**
 
-B.Tech Computer Science Engineering
+B.Tech CSE Student
 
-GitHub
-
-https://github.com/anshul13-hub
+GitHub: https://github.com/anshul13-hub
 
 ---
 
-<div align="center">
+# ⭐ Support
 
-## ⭐ If you like this project, don't forget to Star this Repository ⭐
-
-</div>
+If you found this project helpful, please give it a ⭐ on GitHub.
