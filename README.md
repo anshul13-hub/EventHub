@@ -4,13 +4,12 @@
 
 ---
 
-## 🚀 Live Demo
 
-🔗 Live Website: *(Add after deployment)*
+
 
 ---
 
-# 📌 Project Overview
+#  Project Overview
 
 EventHub is a campus event management platform where students can discover events, register online, receive QR-based digital tickets, and manage their registrations.
 
@@ -18,9 +17,9 @@ Organizers can create events, edit/delete them, monitor registrations, and manag
 
 ---
 
-# ✨ Features
+#  Features
 
-## 👨‍🎓 Student
+##  Student
 
 - User Registration & Login
 - Browse Upcoming Events
@@ -34,7 +33,7 @@ Organizers can create events, edit/delete them, monitor registrations, and manag
 
 ---
 
-## 👨‍💼 Organizer
+##  Organizer
 
 - Organizer Login
 - Create Event
@@ -86,15 +85,15 @@ Organizers can create events, edit/delete them, monitor registrations, and manag
 
 ---
 
-# 📸 Screenshots
+#  Screenshots
 
-## 🏠 Home
+##  Home
 
 ![Home](screenshots/image.png)
 
 ---
 
-## 🎉 Events
+##  Events
 
 ![Events](screenshots/image-1.png)
 
@@ -102,7 +101,7 @@ Organizers can create events, edit/delete them, monitor registrations, and manag
 
 ---
 
-## 🖼 Gallery
+## Gallery
 
 ![Gallery](screenshots/image-3.png)
 
@@ -112,37 +111,37 @@ Organizers can create events, edit/delete them, monitor registrations, and manag
 
 ---
 
-## 🔐 Login
+##  Login
 
 ![Login](screenshots/image-6.png)
 
 ---
 
-## 📝 Signup
+##  Signup
 
 ![Signup](screenshots/image-7.png)
 
 ---
 
-## 📋 Registered Students
+##  Registered Students
 
 ![Registered Students](screenshots/image-8.png)
 
 ---
 
-## 🎟 QR Ticket
+##  QR Ticket
 
 ![QR Ticket](screenshots/image-9.png)
 
 ---
 
-## 🎫 My Tickets
+##  My Tickets
 
 ![My Tickets](screenshots/image-10.png)
 
 ---
 
-## 👨‍💼 Organizer Dashboard
+##  Organizer Dashboard
 
 ![Organizer Dashboard](screenshots/image-11.png)
 
@@ -150,13 +149,13 @@ Organizers can create events, edit/delete them, monitor registrations, and manag
 
 ---
 
-## 👨‍🎓 Student Dashboard
+##  Student Dashboard
 
 ![Student Dashboard](screenshots/image-13.png)
 
 ---
 
-# ⚙ Installation
+#  Installation
 
 Clone the repository
 
@@ -232,7 +231,7 @@ EventHub
 
 ---
 
-# 🔐 Authentication
+#  Authentication
 
 - JWT Authentication
 - Password Hashing using bcryptjs
@@ -241,7 +240,7 @@ EventHub
 
 ---
 
-# 📈 Future Improvements
+#  Future Improvements
 
 - Email Notifications
 - Attendance Scanner
@@ -254,7 +253,7 @@ EventHub
 
 ---
 
-# 💡 Learning Outcomes
+#  Learning Outcomes
 
 During this project I learned:
 
@@ -280,6 +279,6 @@ GitHub: https://github.com/anshul13-hub
 
 ---
 
-# ⭐ Support
+#  Support
 
 If you found this project helpful, please give it a ⭐ on GitHub.
